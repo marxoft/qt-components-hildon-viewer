@@ -1,0 +1,4 @@
+qt-components-hildon-viewer
+===================
+
+Qt Components Hildon Viewer is a launcher for testing QML code that uses the Qt Componenents Hildon modules. To launch a QML file, simply enter '/opt/qt-components-hildon-viewer/bin/viewer <PATH_TO_QML_FILE>'. If no filepath is supplied, a file dialog will be shown allowing a QML file to be chosen.
