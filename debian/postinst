@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if [ ! -e  /usr/bin/qchviewer ]
+    then
+        ln -s /opt/qt-components-hildon-viewer/bin/viewer /usr/bin/qchviewer
+fi
+
+exit 0
