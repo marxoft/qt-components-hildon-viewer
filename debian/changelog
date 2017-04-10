@@ -1,3 +1,13 @@
+qt-components-hildon-viewer (0.1.0) unstable; urgency=low
+
+  * Add symlink at /usr/bin/qchviewer.
+  * Connect the quit() signal of the QDeclarativeEngine to the quit() slot of
+    the QApplication instance.
+  * Use the first argument for the filename, to allow additional arguments to
+    be passed to applications.
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Mon, 10 Apr 2017 18:16:21 +0000
+
 qt-components-hildon-viewer (0.0.1) unstable; urgency=low
 
   * Initial Release.
